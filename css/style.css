@@ -60,7 +60,7 @@ body {
 
 
 .user:hover, .password:hover {
-    
+    border: 0;
 }
 .inp-login {
     width: 100% ;
