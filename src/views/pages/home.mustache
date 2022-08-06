@@ -1,27 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha marmita</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="https://kit.fontawesome.com/edc693fd16.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div class="container">
-        <div class="menu-mobile">
-            <a class="active-icon" href="index.html">
-                <i class="fa-solid fa-utensils"></i>
-            </a>
-            <a class="" href="comida.html">
-                <i class="fa-solid fa-plus"></i>
-            </a> 
-            <a class="" href="login.html">   
-                <i class="fa-solid fa-arrow-right-from-bracket"></i>
-            </a>
-        </div>
-        <div class="header">
+{{>partials/statics/header}}
+<div class="header">
             <div class="detals">
                 <p><i>Olá, </i>Pedro</p>
                 <span>Qual será a marmita de hoje?</span>
@@ -88,13 +66,7 @@
                         <p>valid:<b>22/22/2222</b></p>
                     </div>
                 </div>
-
-                
             </div>
         </div>
-    </div>
-<footer>
-    Criado por github.com/phroriz >.<
-</footer>
-</body>
-</html>
+    {{>partials/components/menu}}
+{{>partials/statics/footer}}
